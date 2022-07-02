@@ -1,0 +1,6 @@
+# Archivo hecho en un VIM
+
+* EL modo editar se accede desde el modo comando con la letra i o la letra s
+* con u se hace undo y con d se hace do, es la flecha  hacia atrás y adelante en el word
+
+# Esto es un comentario

@@ -1,0 +1,51 @@
+    1  ls
+    2  cd TAREAS
+    3  ls
+    4  ls NOTEBOOKS
+    5  cp NOTEBOOKS/Herramientas_1.ipynb
+    6  cp NOTEBOOKS/lista.dat .
+    7  cp NOTEBOOKS/Herramientas_1.ipynb .
+    8  man wc
+    9  mkdir IAA
+   10  cd
+   11  cd TAREAS
+   12  cd IAA/
+   13  cat lista_Est.txt | tr "," "\t" > lista_Est_tab.txt
+   14  ln -s../../NOTEBOOKS/des_estaciones.dat
+   15  ln -s ../../NOTEBOOKS/des_estaciones.dat
+   16  cp -r ../NOTEBOOKS .
+   17  uptime
+   18  exit
+   19  nproc
+   20  nvidia-smi
+   21  free
+   22  free -g
+   23  scp Casos_Diarios_Municipio_Confirmados_20220614.csv alumno03@132.248.8.187:TAREAS/IAA/CASOS-MUN.csv
+   24  scp Casos_* alumno03@132.248.8.187:CASOS-MUN-IAA.csv
+   25  ls
+   26  exit
+   27  pwd
+   28  cd TAREAS/
+   29  cd IAA/
+   30  ls
+   31  more compuestos.txt
+   32  cat covid
+   33  cat covidM.csv
+   34  more covidM.csv
+   35  less covidM.csv
+   36  ls -R
+   37  touch ejemplo.txt
+   38  ls -R
+   39  exit
+   40  cd TAREAS/IAA
+   41  ls
+   42  head ejemplo.txt
+   43  bash ejemplo.txt
+   44  head -1 covidM.csv
+   45  head -1 CovidM.csv | tr ", " "\n" > col01
+   46  head -1 covidM.csv | tr ", " "\n" > col01
+   47  grep Guadalajara covidM.csv | tr "," "\n" > col02
+   48  head col02
+   49  wc -l col0?
+   50  history | tail
+   51  history > jun16_10:30.log
